@@ -1,0 +1,43 @@
+{
+  "name": "webpack-babel-starter",
+  "version": "1.0.0",
+  "description": "This is the webpack babel starter guide",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --output-public-path=/build/  --mode development --progress --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuptamang/webpack-babel-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-starter",
+    "webpack-dev-server",
+    "babel",
+    "babel-env"
+  ],
+  "author": "Anup Tamang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuptamang/webpack-babel-starter/issues"
+  },
+  "homepage": "https://github.com/anuptamang/webpack-babel-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-hot-loader": "^1.4.4",
+    "raw-loader": "^3.0.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
