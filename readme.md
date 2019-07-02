@@ -4,4 +4,4 @@
 
 ### This app data loaded from json file and viewer can change user details on right column by clicking names in left column 
 
-### Demo: https://anuptamang.github.io/calculator-app/
+### Demo: https://anuptamang.github.io/cause-effect/
